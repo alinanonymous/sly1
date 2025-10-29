@@ -80,6 +80,7 @@ html/
 env/
 __pycache__/
 *.pyc
+.venv
 
 # Miscellaneous
 .vscode

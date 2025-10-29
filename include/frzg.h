@@ -15,9 +15,9 @@
  */
 struct FRZG : public LO
 {
-    int coid;
-    OID aoid[8];
-    MRG mrg;
+    /* 0x034 */ int coid;
+    /* 0x038 */ OID aoid[8];
+    /* 0x058 */ MRG mrg;
 };
 
 void PostFrzgLoad(FRZG *pfrzg);

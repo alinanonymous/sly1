@@ -212,7 +212,6 @@ struct ALO : public LO
     POSEC *aposec;
     ACTREF *pactrefCombo;
     /* 0x2c4 */ DLR *pdlrFirst;
-    // ???
     ACK ackRot;
     // ???
     // ...
